@@ -76,6 +76,18 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
+    <!-- Camel OpenTracing -->
+    <dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-opentracing-starter</artifactId>
+		</dependency>
+
+	 	<dependency>
+			<groupId>io.jaegertracing</groupId>
+			<artifactId>jaeger-client</artifactId>
+			<version>0.30.3</version>
+		</dependency> 
+    <!-- Camel OpenTracing -->
 
     <!-- testing -->
     <dependency>
